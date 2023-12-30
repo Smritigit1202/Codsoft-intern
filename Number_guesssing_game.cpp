@@ -3,7 +3,6 @@ using namespace std;
  //NUMBER GUESSING GAME 
 int main()
 {
- 
     cout << "Welcome to The Number guessing game" << endl;
     cout << "You have to guess a number between 1 and 50. "
             "You'll have limited tries based on the level you choose."<< endl;
