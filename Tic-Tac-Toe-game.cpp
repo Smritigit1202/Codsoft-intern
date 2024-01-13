@@ -9,16 +9,16 @@ bool draw = false;
 
 void display_board(){
 
-    cout<<"PLAYER - 1 [X]t PLAYER - 2 [O]nn";
-    cout<<"tt     |     |     n";
-    cout<<"tt  "<<board[0][0]<<"  | "<<board[0][1]<<"  |  "<<board[0][2]<<" n";
-    cout<<"tt_____|_____|_____n";
-    cout<<"tt     |     |     n";
-    cout<<"tt  "<<board[1][0]<<"  | "<<board[1][1]<<"  |  "<<board[1][2]<<" n";
-    cout<<"tt_____|_____|_____n";
-    cout<<"tt     |     |     n";
-    cout<<"tt  "<<board[2][0]<<"  | "<<board[2][1]<<"  |  "<<board[2][2]<<" n";
-    cout<<"tt     |     |     n";
+    cout<<"PLAYER - 1 [X]t PLAYER - 2 [O]\n";
+    cout<<"tt     |     |     \n";
+    cout<<"tt  "<<board[0][0]<<"  | "<<board[0][1]<<"  |  "<<board[0][2]<<" \n";
+    cout<<"tt_____|_____|____ \n";
+    cout<<"tt     |     |     \n";
+    cout<<"tt  "<<board[1][0]<<"  | "<<board[1][1]<<"  |  "<<board[1][2]<<" \n";
+    cout<<"tt_____|_____|_____\n";
+    cout<<"tt     |     |     \n";
+    cout<<"tt  "<<board[2][0]<<"  | "<<board[2][1]<<"  |  "<<board[2][2]<<" \n";
+    cout<<"tt     |     |     \n";
 }
 
 void player_turn(){
